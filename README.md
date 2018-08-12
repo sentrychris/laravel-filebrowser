@@ -68,3 +68,7 @@ To access the file browser, you can navigate to http://yoursite.local/filebrowse
 ## Advanced
 
 Documentation on how to override default views coming soon.
+
+## License
+
+Laravel File Browser is open-sourced software licensed under the MIT license.
