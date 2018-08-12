@@ -2,6 +2,8 @@
 
 This package provides a lightweight file explorer that can be easily customised and integrated into your laravel 5.* applications.
 
+![File Browser Screenshot](https://rowles.ch/img/filebrowser.png)
+
 ## Installation
 Install with  Composer:
 ```sh
