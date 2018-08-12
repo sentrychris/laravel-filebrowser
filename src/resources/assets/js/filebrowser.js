@@ -1,12 +1,3 @@
-/**
- * Filebrowser.js - A lightweight jQuery filesystem plugin
- * for laravel-filebrowser.
- * 
- * jQ - Aliased to jQuery 1.11 (noconflict).
- *
- * @package laravel-filebrowser
- * @author Christopher Rowles <me@rowles.ch>
- */
 jQ(function($){
 
     let filemanager = $('.filemanager'),
