@@ -45,8 +45,8 @@ class FileBrowserController extends Controller
         $items = $this->explorer->scan($dir);
 
         return response()->json([
-            "name"  => "app",
-            "type"  => "folder",
+            "name"  => config('filebrowser.root'),
+            "type"  => 'folder',
             "path"  => $dir,
             "items" => $items
         ]);

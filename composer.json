@@ -2,7 +2,7 @@
     "name": "crowles/laravel-filebrowser",
     "description": "A lightweight filebrowser for Laravel applications.",
     "keywords": ["files","filebrowser"],
-    "homepage": "https://bitbucket.org/chrisdevelops/laravel-filebrowser",
+    "homepage": "https://github.com/chrisdevelops/laravel-filebrowser",
     "autoload": {
         "psr-4": {
             "Crowles\\FileBrowser\\": "src"
@@ -20,11 +20,5 @@
     ],
     "require": {
         "php": ">=5.6.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:chrisdevelops/laravel-filebrowser.git"
-        }
-    ]
+    }
 }

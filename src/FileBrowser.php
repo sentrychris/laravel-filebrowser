@@ -24,18 +24,18 @@ class FileBrowser
                 if (is_dir($dir . '/' . $f)) {
                     // folder
                     $files[] = [
-                        "name" => $f,
-                        "type" => "folder",
-                        "path" => $dir . '/' . $f,
-                        "items" => $this->scan($dir . '/' . $f) // recursively get the contents of the folder
+                       'name'  => $f,
+                       'type'  => 'folder',
+                       'path'  => $dir . '/' . $f,
+                       'items' => $this->scan($dir . '/' . $f) // recursively get the contents of the folder
                     ];
                 } else {
                     // file
                     $files[] = [
-                        "name" => $f,
-                        "type" => "file",
-                        "path" => $dir . '/' . $f,
-                        "size" => filesize($dir . '/' . $f)
+                        'name' => $f,
+                        'type' => "file",
+                        'path' => $dir . '/' . $f,
+                        'size' => filesize($dir . '/' . $f)
                     ];
                 }
             }

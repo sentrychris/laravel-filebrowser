@@ -46,7 +46,7 @@ You'll now need to add the path to the root directory you want the file browser 
     | You must use an absolute path.
     |
     */
-    'path' => env('FILEBROWSER_PATH', '/path/to/directory/'),
+    'path' => env('FILEBROWSER_PATH', ''),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ You'll now need to add the path to the root directory you want the file browser 
     | The root diectory where you want to initialise the file browser
     |
     */
-    'root' => 'root',
+    'root' => env('FILEBROWSER_ROOT', ''),,
 ```
 ### Default Routes
 The following default routes are configured by default with prefix ```filebrowser/```:
