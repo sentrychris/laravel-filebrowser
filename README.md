@@ -36,7 +36,7 @@ php artisan vendor:publish --provider="Crowles\FileBrowser\FileBrowserServicePro
 ## Configuration
 You'll now need to add the path to the root directory you want the file browser to access, do this by changing the following values in ```config/filebrowser.php```:
 ```php
-/*
+    /*
     |--------------------------------------------------------------------------
     | Path
     |--------------------------------------------------------------------------
