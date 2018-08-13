@@ -59,7 +59,7 @@ You'll now need to add the path to the root directory you want the file browser 
     'root' => env('FILEBROWSER_ROOT', ''),
 ```
 ### Default Routes
-The following default routes are configured by default with prefix ```filebrowser/```:
+The following routes are configured by default with prefix ```filebrowser/```:
 ```php
 $router->get('/', '\Crowles\FileBrowser\FileBrowserController@index');
 $router->get('/scan', '\Crowles\FileBrowser\FileBrowserController@scan');

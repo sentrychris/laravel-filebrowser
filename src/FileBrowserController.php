@@ -53,7 +53,7 @@ class FileBrowserController extends Controller
     }
 
     /**
-     * Load package assets.
+     * Path to package assets.
      *
      * @return array
      */

@@ -7,7 +7,6 @@ use Illuminate\Support\ServiceProvider;
 
 class FileBrowserServiceProvider extends ServiceProvider
 {
-
     /**
      * Indicates if loading of the provider is deferred.
      *
@@ -43,7 +42,6 @@ class FileBrowserServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__.'/config/filebrowser.php' => $this->config_path('filebrowser.php'),
             ], 'config');
-
         }
 
         $config = $this->app['config']->get('filebrowser.route', []);
