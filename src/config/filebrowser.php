@@ -34,6 +34,6 @@ return [
     */
     'route' => [
         'prefix' => 'filebrowser',
-        'middleware' => null, // Use auth middleware to prevent exposing your files
+        'middleware' => null, // Use auth middleware to prevent unauthorised access to your files
     ],
 ];
