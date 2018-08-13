@@ -12,7 +12,7 @@ class FileBrowserController extends Controller
     protected $package = 'laravel-filebrowser';
 
     /**
-     * @var
+     * @var FileBrowser
      */
     private $explorer;
 
