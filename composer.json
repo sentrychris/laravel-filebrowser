@@ -2,7 +2,7 @@
     "name": "crowles/laravel-filebrowser",
     "description": "A lightweight filebrowser for Laravel applications.",
     "keywords": ["files","filebrowser"],
-    "homepage": "https://github.com/chrisdevelops/laravel-filebrowser",
+    "homepage": "https://github.com/raekw0n/laravel-filebrowser",
     "autoload": {
         "psr-4": {
             "Crowles\\FileBrowser\\": "src"
@@ -14,7 +14,7 @@
         {
             "name": "Chris Rowles",
             "email": "me@rowles.ch",
-            "homepage": "https://rowles.ch",
+            "homepage": "www.rowles.ch",
             "role": "Developer"
         }
     ],
