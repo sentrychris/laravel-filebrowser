@@ -1,6 +1,6 @@
 # Laravel File Browser
 
-This package provides a lightweight file explorer that can be easily customised and integrated into your laravel 5.* applications.
+This package provides a lightweight file explorer that can be easily customised and integrated into your laravel applications.
 
 ![File Browser Screenshot](https://raw.githubusercontent.com/raekw0n/laravel-filebrowser/master/screencapture-snuggles-local-filebrowser-2019-09-27-21_06_29%20(1).png)
 
