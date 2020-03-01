@@ -68,12 +68,6 @@ $router->get('/', '\Crowles\FileBrowser\FileBrowserController@index');
 $router->get('/scan', '\Crowles\FileBrowser\FileBrowserController@scan');
 ```
 
-To access the file browser, you can navigate to http://yoursite.local/filebrowser.
-
-## Advanced
-
-Documentation on how to override default views coming soon.
-
 ## License
 
 Laravel File Browser is open-sourced software licensed under the MIT license.
