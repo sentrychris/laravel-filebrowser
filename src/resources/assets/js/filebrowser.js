@@ -20,7 +20,6 @@ $(function() {
             e.preventDefault();
 
             let nextDir = $(this).find('a.folders').attr('href');
-            nextDir = nextDir.replace('/home/vagrant/sk-hub/storage/app/', '');
 
             breadcrumbsUrls.push(nextDir);
 
