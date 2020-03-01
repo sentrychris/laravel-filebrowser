@@ -2,7 +2,9 @@
 
 This package provides a lightweight file explorer that can be easily customised and integrated into your laravel applications.
 
-![File Browser Screenshot](https://raw.githubusercontent.com/raekw0n/laravel-filebrowser/master/screencapture-snuggles-local-filebrowser-2019-09-27-21_06_29%20(1).png)
+## Requirements
+- jQuery ^3.4.1
+- Bootstrap ^4.4.1
 
 ## Installation
 Install with  Composer:
