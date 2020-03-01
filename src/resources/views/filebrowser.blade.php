@@ -9,10 +9,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-          crossorigin="anonymous">
     <link href="{{ asset($path.'/css/filebrowser.css') }}" rel="stylesheet">
 </head>
 
@@ -46,8 +42,6 @@
     </div>
 
 </div>
-<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script>jQ = jQuery.noConflict(true);</script>
 <script src="{{ asset($path.'/js/filebrowser.js') }}"></script>
 </body>
 </html>
