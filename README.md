@@ -3,8 +3,9 @@
 This package provides a lightweight file explorer that can be easily customised and integrated into your laravel applications.
 
 ## Requirements
-- jQuery ^3.4.1
-- Bootstrap ^4.4.1
+- Laravel ^5+
+- jQuery ^3.4.1+
+- Bootstrap ^4.4.1+
 
 ## Installation
 Install with  Composer:
